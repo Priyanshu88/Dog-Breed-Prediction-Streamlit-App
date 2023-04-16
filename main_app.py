@@ -16,7 +16,7 @@ st.title("Dog Breed Prediction")
 st.markdown("Upload an image of the dog")
 
 #Uploading the dog image
-dog_image = st.file_uploader("Choose an image...", type="png")
+dog_image = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 submit = st.button('Predict')
 #On predict button click
 if submit:
