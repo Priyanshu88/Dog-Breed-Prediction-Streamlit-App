@@ -1,4 +1,4 @@
-Keras==2.4.3
+keras
 opencv-python-headless
-numpy==1.18.5
-streamlit==0.71.0
+numpy
+streamlit
